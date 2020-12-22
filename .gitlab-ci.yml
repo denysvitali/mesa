@@ -781,7 +781,7 @@ meson-android:
     - check mr
   variables:
     VULKAN_DRIVERS: freedreno,broadcom
-    GALLIUM_DRIVERS: "etnaviv,freedreno,kmsro,lima,nouveau,panfrost,swrast,tegra,v3d,vc4"
+    GALLIUM_DRIVERS: "etnaviv,freedreno,kmsro,lima,nouveau,panfrost,swrast,v3d,vc4"
     BUILDTYPE: "debugoptimized"
   tags:
     - aarch64
